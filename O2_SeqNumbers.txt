@@ -1,0 +1,3 @@
+Num Flowers: 100
+Num Animals: 5
+Num Bacteria: 3
