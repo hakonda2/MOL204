@@ -1,0 +1,8 @@
+TotalGC FLOWERS:	0.503
+MinMaxMedian_Flowers:	0.333	0.667	0.512
+
+TotalGC BACTERIA:	0.249
+MinMaxMedian_Bacteria:	0.211	0.299	0.224
+
+TotalGC ANIMALS:	0.731
+MinMaxMedian_Animals:	0.6	0.773	0.744

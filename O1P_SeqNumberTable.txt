@@ -1,0 +1,2 @@
+Flowers	Animals	Bacteria
+100	5	3
