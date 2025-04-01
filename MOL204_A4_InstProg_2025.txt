@@ -1,0 +1,34 @@
+# DIRS
+echo Making Dirs
+mkdir MOL204_Programs
+cd MOL204_Programs
+
+mkdir fasttree
+mkdir trimal
+mkdir mafft
+
+# FastTree
+echo Fasttree
+cd fasttree
+wget https://morgannprice.github.io/fasttree/FastTree
+chmod 744 FastTree
+echo export PATH=${PWD}:$PATH >> ~/.bashrc
+
+# Trimal
+echo trimal
+cd ../trimal
+wget https://github.com/hakonda2/MOL204/raw/main/trimalstatic.zip
+sleep 1
+unzip trimalstatic.zip
+echo export PATH=${PWD}:$PATH >> ~/.bashrc
+
+# Mafft
+echo mafft
+cd ../mafft
+wget https://mafft.cbrc.jp/alignment/software/mafft-7.526-linux.tgz
+tar xfvz mafft-7.526-linux.tgz
+echo export PATH=${PWD}/mafft-linux:$PATH >> ~/.bashrc
+
+cd ../..
+
+
