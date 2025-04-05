@@ -12,7 +12,8 @@ echo Fasttree
 cd fasttree
 wget https://morgannprice.github.io/fasttree/FastTree
 chmod 744 FastTree
-echo export PATH=${PWD}:$PATH >> ~/.bashrc
+echo export PATH=${PWD}:$PATH >> ~/.profile
+echo
 
 # Trimal
 echo trimal
@@ -20,14 +21,16 @@ cd ../trimal
 wget https://github.com/hakonda2/MOL204/raw/main/trimalstatic.zip
 sleep 1
 unzip trimalstatic.zip
-echo export PATH=${PWD}:$PATH >> ~/.bashrc
+echo export PATH=${PWD}:$PATH >> ~/.profile
+echo
 
 # Mafft
 echo mafft
 cd ../mafft
 wget https://mafft.cbrc.jp/alignment/software/mafft-7.526-linux.tgz
 tar xfvz mafft-7.526-linux.tgz
-echo export PATH=${PWD}/mafft-linux:$PATH >> ~/.bashrc
+echo export PATH=${PWD}/mafft-linux64:$PATH >> ~/.bashrc
+echo
 
 cd ../..
 
