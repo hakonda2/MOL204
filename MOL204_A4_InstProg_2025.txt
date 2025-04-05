@@ -29,7 +29,7 @@ echo mafft
 cd ../mafft
 wget https://mafft.cbrc.jp/alignment/software/mafft-7.526-linux.tgz
 tar xfvz mafft-7.526-linux.tgz
-echo export PATH=${PWD}/mafft-linux64:$PATH >> ~/.bashrc
+echo export PATH=${PWD}/mafft-linux64:$PATH >> ~/.profile
 echo
 
 cd ../..
